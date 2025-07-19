@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import profileImage from '../../assets/profile.png';
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Rohit Jat
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -41,15 +41,13 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am a full-stack developer with over 2 years of experience in
-            building scalable web applications. Skilled in both front-end and
-            back-end development, I specialize in the MERN stack and other
-            modern technologies to create seamless user experiences and
-            efficient solutions.
+            Motivated and enthusiastic BCA student with strong problem-solving skills and a passion for web
+ development and data structures. Seeking an opportunity to leverage my full-stack skills and build
+ impactful, user-friendly applications. Eager to contribute to innovative projects and collaborate with a dynamic team to create exceptional digital experiences.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
+            href="https://drive.google.com/file/d/1s9v8jmm3ydqs9uH1bMjm_VaTCFYHbwl1/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
@@ -62,7 +60,7 @@ const About = () => {
           </a>
           
         </div>
-        {/* Right Side */}
+       
         <div className="md:w-1/2 flex justify-center md:justify-end">
           <Tilt
             className="w-48 h-48 sm:w-64 sm:h-64 md:w-[30rem] md:h-[30rem] border-4 border-purple-700 rounded-full"
@@ -75,7 +73,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Rohit Jat"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
