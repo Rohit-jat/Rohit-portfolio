@@ -22,7 +22,8 @@ import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import schoolLogo from './assets/education_logo/school.jpeg'
+import schoolLogo from './assets/education_logo/school.jpeg';
+import CloudinaryLogo from './assets/tech_logo/cloudinary.png';
 
 const appwriteLogo = "https://appwrite.io/images/logos/logo.svg";
 
@@ -58,6 +59,7 @@ export const SkillsInfo = [
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
+       { name: 'Cloudinary', logo: CloudinaryLogo },
       { name: 'Appwrite', logo: appwriteLogo },
       
     ],
